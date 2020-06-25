@@ -3,30 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Technical Document Page</title>
 </head>
 <body>
     
     <!-- - User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation). -->
     <main id ="main-doc">
+        <h1>So you want to Code?</h1>
 
         <!-- - User Story #2: Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5. -->
             <!-- - User Story #3: The first element within each .main-section should be a header element which contains text that describes the topic of that section. -->
                 <!-- - User Story #4: Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java"). -->
                     <!-- - User Story #5: The .main-section elements should contain at least 10 p elements total (not each). -->
+                        <!-- - User Story #6: The .main-section elements should contain at least 5 code elements total (not each). -->
+                            <!-- - User Story #7: The .main-section elements should contain at least 5 li items total (not each). -->
         <section id="section_one" class="main-section">
-            <header>Description of Section Part 1</header>
+
+            <header><strong>Git Introduction</strong></header>
+
             <p>
-                p1
+                <u>What is git?</u>
+                <br/>
+                <br/>
+                Known as a version control system 
+                <br/>
+                We can use git to keep track of updates, additions, and deletions to our code
+                <br/>
+                Code backups, preventing loss of hours/days of work 
+                <br/>
+                Helps keep history of updates 
+                <br/>
+                Acts as online storage 
+                <br/>
+                Minimize errors, while handling multiple codes 
             </p>
 
             <p>
-                p2
+                <u>Command Line</u> 
+                <br/>
+                <br/>
+                 
+                <code>pwd</code> presents working directory, the name the folder you are currently in 
+                <br/>
+                <code>ls</code> will list all the folders and files within the folder you are currently in 
+                <br/>
+                <code>cd</code> change directories, moving into the folder you selected
+                <br/>
+                <code>clear</code> will clear your terminal
+                <br/>
+                <code>cd ..</code> will move up one level from the directory you are currently in
+                <br/>
+                <code>cd ../..</code> will move up two levels 
+                <br/>
+                <code>cd ~</code> will take you back to home level, the root 
+                <br/>
+                <code>mkdir</code> creates a folder 
+                <br/>
+                <code>touch</code> makes a file
+                <br/>
+                <code>rm</code> removes file
+                <br/>
+                <code>rm -rf <em>[folder name]</em></code> deletes the selected folder and everything within the folder 
+
             </p>
+
+            <li>
+                l1
+            </li>
+            
         </section>
 
+
         <section id="section_two" class="main-section">
+
             <header>Description of Section Part 2</header>
+
             <p>
                 p3
             </p>
@@ -34,10 +85,22 @@
             <p>
                 p4
             </p>
+
+            <code>
+                c2
+            </code>
+
+            <li>
+                l2
+            </li>
+
         </section>
 
+
         <section id="section_three" class="main-section">
+
             <header>Description of Section Part 3</header>
+
             <p>
                 p5
             </p>
@@ -45,10 +108,22 @@
             <p>
                 p6
             </p>
+
+            <code>
+                c3
+            </code>
+
+            <li>
+                l3
+            </li>
+
         </section>
 
+
         <section id="section_four" class="main-section">
+
             <header>Description of Section Part 4</header>
+
             <p>
                 p7
             </p>
@@ -56,10 +131,22 @@
             <p>
                 p8
             </p>
+
+            <code>
+                c4
+            </code>
+
+            <li>
+                l4
+            </li>
+
         </section>
 
+
         <section id="section_five" class="main-section">
+
             <header>Description of Section Part 5</header>
+
             <p>
                 p9
             </p>
@@ -67,7 +154,61 @@
             <p>
                 p10
             </p>
+            
+            <code>
+                c5
+            </code>
+
+            <li>
+                l5
+            </li>
+
         </section>
+
+        <!-- - User Story #8: I can see a nav element with a corresponding id="navbar". -->
+        <nav id="navbar">
+
+            <!-- - User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation. -->
+            <header>
+                Nav Description
+            </header>
+
+            <!-- - User Story #10: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section. -->
+                <!-- - User Story #11: The header element in the navbar must come before any link (a) elements in the navbar. -->
+            <ul>
+                <li>
+                    <a>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+
+                    </a>
+                </li>
+            </ul>
+
+
+        </nav>
 
     </main>
 </body>
@@ -77,20 +218,6 @@
 
 
 
-
-
-
-<!-- - User Story #6: The .main-section elements should contain at least 5 code elements total (not each). -->
-
-<!-- - User Story #7: The .main-section elements should contain at least 5 li items total (not each). -->
-
-<!-- - User Story #8: I can see a nav element with a corresponding id="navbar". -->
-
-<!-- - User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation. -->
-
-<!-- - User Story #10: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section. -->
-
-<!-- - User Story #11: The header element in the navbar must come before any link (a) elements in the navbar. -->
 
 <!-- - User Story #12: Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world"). -->
 
