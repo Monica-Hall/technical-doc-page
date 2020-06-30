@@ -18,8 +18,8 @@
                     <!-- - User Story #5: The .main-section elements should contain at least 10 p elements total (not each). -->
                         <!-- - User Story #6: The .main-section elements should contain at least 5 code elements total (not each). -->
                             <!-- - User Story #7: The .main-section elements should contain at least 5 li items total (not each). -->
-        <section id="section_one" class="main-section">
-            <header><strong>Git</strong></header>
+        <section id="Git" class="main-section">
+            <header id="header"><strong>Git</strong></header>
             <p>
                 <u>What is Git?</u>
                 <br/>
@@ -62,9 +62,9 @@
         <br/>
 
 
-        <section id="section_two" class="main-section">
+        <section id="Javascript" class="main-section">
 
-            <header><strong>JavaScript</strong></header>
+            <header id="header"><strong>JavaScript</strong></header>
             
             <p>
                 <u>What is Javascript?</u>
@@ -83,45 +83,68 @@
 
         </section>
 
+        <br/>
 
-        <section id="section_three" class="main-section">
+        <section id="variables" class="main-section">
 
-            <header>Description of Section Part 3</header>
+            <header><strong>Variables</strong></header>
 
             <p>
-                p5
+                <u>What are variables?</u>
+                <br/>
+                <br/>
+                Variables are stored in the computers memory system, RAM. If we want to to go into a specific place within the file system, we would then look at the keyword of the variable, called a declaration. Javascript has three kinds of variable declarations. 
+                <br/>
+                <br/>
+                <code>var</code>
+                <code>let</code>
+                <code>const</code>
+                <br/>
+                <br/>
+                <code>var data; </code> 
+                <br/>
+                <br/>
+                The word "var" is the variable and "data" is the declaration. We can then assign a value to the variable. Assignment is the term used for the declared variable.
+                <br/>
+                <br/>
+                <code>var data=7;</code>
             </p>
 
             <p>
-                p6
+                There are different data types we can assign to a declared variable, such as Numbers, Strings, Booleans, Undefined, Null, and NaN (not a number). 
             </p>
 
-            <code>
-                c3
-            </code>
 
             <li>
-                l3
+                Learn more about <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Declarations">Variables</a>
             </li>
 
         </section>
 
+        <br/>
+        <br/>
 
-        <section id="section_four" class="main-section">
+        <section id="data_types" class="main-section">
 
-            <header>Description of Section Part 4</header>
+            <header><strong>Data Types</strong></header>
 
             <p>
-                p7
+                There is one number type in JS, that’s called Numbers. If a value of type “number”, it can be positive, negative, an integer, or a floating point (decimal). Number types have three symbolic values: +Infinity, -Infinity, and NAN. For Example:
+                <br/>
+                <br/>
+                <code>console.log(4 + 5);</code> 
+                <br/>
+                We can easily see that 9 will be logged to the console. 
+                <br/>
+                <br/>
+                <code>console.log(4 + undefined);</code>
+                <br/>
+                Now we logged NAN to the console. NAN is a way for JS to say “I think you meant to have a number here, but I can’t produce a number with that you gave me, so here is NAN”.
             </p>
 
             <p>
-                p8
+                q
             </p>
-
-            <code>
-                c4
-            </code>
 
             <li>
                 l4
@@ -132,7 +155,7 @@
 
         <section id="section_five" class="main-section">
 
-            <header>Description of Section Part 5</header>
+            <header id="header">Description of Section Part 5</header>
 
             <p>
                 p9
@@ -141,10 +164,6 @@
             <p>
                 p10
             </p>
-            
-            <code>
-                c5
-            </code>
 
             <li>
                 l5
@@ -156,7 +175,7 @@
         <nav id="navbar">
 
             <!-- - User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation. -->
-            <header>
+            <header id="header">
                 Nav Description
             </header>
 
