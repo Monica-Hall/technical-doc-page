@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Technical Document Page</title>
 </head>
 <body>
+    <nav id="navbar">
+
+        <!-- - User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation. -->
+        <header id="nav-header">
+            Nav Description
+        </header>
+
+        <!-- - User Story #10: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section. -->
+            <!-- - User Story #11: The header element in the navbar must come before any link (a) elements in the navbar. -->
+                <!-- - User Story #12: Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world"). -->
+                    <!-- - User Story #13: When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header. -->
+        <ul>
+            <li>
+                <a class="nav-link" href="#git">Git</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#javascript">Javascript</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#variables">Variables</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#data_types">Data Types</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#description_of_section_five">Description of Section Five</a>
+            </li>
+        </ul>
+
+
+    </nav>
+    
+    <div class="main-container">
+    <!-- - User Story #8: I can see a nav element with a corresponding id="navbar". -->
+    
     
     <!-- - User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation). -->
     <main id ="main-doc">
@@ -175,47 +215,11 @@
 
         </section>
 
-        <!-- - User Story #8: I can see a nav element with a corresponding id="navbar". -->
-        <nav id="navbar">
-
-            <!-- - User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation. -->
-            <header id="nav-header">
-                Nav Description
-            </header>
-
-            <!-- - User Story #10: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section. -->
-                <!-- - User Story #11: The header element in the navbar must come before any link (a) elements in the navbar. -->
-                    <!-- - User Story #12: Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world"). -->
-                        <!-- - User Story #13: When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header. -->
-            <ul>
-                <li>
-                    <a class="nav-link" href="#git">Git</a>
-                </li>
-
-                <li>
-                    <a class="nav-link" href="#javascript">Javascript</a>
-                </li>
-
-                <li>
-                    <a class="nav-link" href="#variables">Variables</a>
-                </li>
-
-                <li>
-                    <a class="nav-link" href="#data_types">Data Types</a>
-                </li>
-
-                <li>
-                    <a class="nav-link" href="#description_of_section_five">Description of Section Five</a>
-                </li>
-            </ul>
-
-
-        </nav>
-
         <p>
             2020 | All Rights Reserved | Reference: Some documentations were taken from <a href="https://www.wikipedia.org/">Wikipedia</a> and <a href="https://developer.mozilla.org/en-US/">MDM</a>
         </p>
 
     </main>
+</div>
 </body>
 </html>
