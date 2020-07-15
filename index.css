@@ -13,14 +13,23 @@ body {
     justify-content: center;
     height: 100%; 
     width: 100%; 
+    margin-left: 50%
 }
 
 #navbar {
     height: 100vh; 
-    width: 20%; 
+    width: 50%; 
     display: flex;
     flex-direction: column;
+    position: fixed; 
 }
+
+/* #navbar {
+    width: 100vw; 
+    position: fixed; 
+    top: 0; 
+    left: -100vw; 
+} */
 
 @media only screen and (max-width: 815px) {
     body {
@@ -33,7 +42,7 @@ body {
         margin-left: 0px;
         margin-top: 150px;
     }
-    
+
     #navbar {
         position: absolute;
         top: 0;
